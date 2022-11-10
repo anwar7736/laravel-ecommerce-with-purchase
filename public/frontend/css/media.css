@@ -1,0 +1,263 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .font-xl{
+        font-size: 35px;
+    }
+    .top-banner{
+        display: none;
+    }
+    .navbar{
+        padding: 10px 5px !important;
+    }
+    .navbar .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+        font-family: var(--founders-text-regular);
+        color: rgb(179, 177, 177);
+    }
+    .ma5menu__container{
+        top: 58px;
+    }
+    #forwhitebg .navbar-toggler .bar{
+        background-color: black;
+    }
+
+    #banner{
+        margin-top: -85px !important;
+    }
+    .play{
+        margin-top: -30px;
+        left: 15px;
+    }
+    .search-wiget{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        max-height: 100vh;
+        display: none;
+        background-color: var(--b-white2);
+        z-index: 99999999;
+        transition: all 0.5s linear;
+        animation: fadein 0.5s ease-in-out;
+    }
+    .search-form .form-control::placeholder{
+        font-size: 20px;
+    }
+    .search-form .input-group span{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .signupin{
+            background-image: url(../svg/user.svg);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 25px;
+    }
+    .lvl-0 ul li:first-of-type{
+        background-color: rgb(212, 212, 212);
+        background-image: url(../svg/right.svg);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 25px;
+    }
+    .lvl-0 ul li:first-of-type a::before{
+        content: "    ";
+        background-image: url(../svg/user.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 20px;
+    }
+    #handbag-section{
+        padding: 20px;
+    }
+    .handbag-left p, .handbag-left h2, .handbag-left span{
+        color: black;
+    }
+    .handbag-left{
+        margin-bottom: 30px;
+    }
+    /* .handbag-right p, .handbag-right h2, .handbag-right span{
+        color: white;
+    } */
+    .handbag-right{
+        margin-top: 30px;
+    }
+    .wishlist-item-first{
+        height: 77vh;
+    }
+    .col-rev{
+        flex-direction: column-reverse;
+    }
+    .need-help{
+        margin-top: 30px;
+    }
+    .order-status{
+        margin-top: 30px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .font-xl{
+        font-size: 38px;
+    }
+    .navbar .navbar-brand{
+        font-size: 22px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+        font-family: var(--founders-text-regular);
+        color: rgb(179, 177, 177);
+    }
+    .search-wiget{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        min-height: 100vh;
+        display: none;
+        background-color: var(--b-white2);
+        z-index: 99999999;
+        transition: all 0.5s linear;
+        animation: fadein 0.5s ease-in-out;
+    }
+    .ma5menu__panel>ul li:first-of-type{
+        background-color: rgb(187, 187, 187) !important;
+    }
+    .icons ul li{
+        margin-right:20px;
+    }
+    .col-rev{
+        flex-direction: column-reverse;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .font-xl{
+        font-size: 40px;
+    }
+    .navbar .navbar-brand{
+        font-size: 25px;
+    }
+
+    .navbar-nav{
+        background-color: var(--b-white2);
+    }
+    .men-r-block{
+        position: absolute;
+        left: 0;
+        margin-top: -20px;
+        background-color: var(--b-white2);
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+        font-family: var(--founders-text-regular);
+        color: rgb(179, 177, 177);
+    }
+    .ma5menu__container{
+        top: 85px;
+    }
+    .ma5menu__panel>ul li:first-of-type{
+        background-color: rgb(187, 187, 187) !important;
+    }
+    .search-wiget{
+        top: 55px;
+    }
+    .icons ul li{
+        margin-right:20px;
+    }
+    .col-rev{
+        flex-direction: column-reverse;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .font-xl{
+        font-size: 42px;
+    }
+    .navbar .navbar-brand{
+        font-size: 30px;
+    }
+    .icons ul li{
+        margin-right:20px;
+    }
+    .search-wiget{
+        top: 62px;
+    }
+    .wishlist-item-first{
+        height: 58vh;
+    }
+    #glass {
+        position: absolute;
+        border-radius: 20%;
+        /* box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25); */
+        display: none;
+        background-repeat: no-repeat;
+        background-color: rgba(0,0,0,.6);
+      }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .font-xl{
+        font-size: 45px;
+    }
+    .search-wiget .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .icons ul li{
+        margin-right:20px;
+    }
+    #handbag-section{
+        padding-top: 100px;
+    }
+    .wishlist-item-first{
+        height: 58vh;
+    }
+    #glass {
+        position: absolute;
+        border-radius: 20%;
+        /* box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25); */
+        display: none;
+        background-repeat: no-repeat;
+        background-color: rgba(0,0,0,.6);
+      }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .font-xl{
+        font-size: 48px;
+        letter-spacing: 3px;
+    }
+    .icons ul li{
+        margin-right:25px;
+    }
+    .search-wiget .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #handbag-section{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    .wishlist-item-first{
+        height: 58px;
+    }
+    #glass {
+        position: absolute;
+        border-radius: 20%;
+        /* box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25); */
+        display: none;
+        background-repeat: no-repeat;
+        background-color: rgba(0,0,0,.6);
+      }
+}
